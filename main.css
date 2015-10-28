@@ -1,0 +1,9 @@
+ body {color: black;}
+
+.post-title {color: black !important;}
+
+.delete-link  {background-color: gainsboro;}
+
+.zone-wrapper {background-color: lightslategrey;}
+
+.zone-wrapper postsListTop {background-color: black;}
