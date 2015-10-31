@@ -39,3 +39,5 @@ telescope:update-prompt
 
 # custom
 standard-minifiers
+mrt:moment
+mrt:twilio-meteor
