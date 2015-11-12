@@ -2,24 +2,35 @@
     color: #212121 !important;
 }
 body {
-     background: #F5F5F5;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
      
 }
 
 header.header.dark-bg {
-    background: #607D8B;
+    background-color: #fff;
+    background-image: 
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#abced4 .1em, transparent .1em);
+    background-size: 300% 1.2em;
 }
 
 
-.post-title {color: black !important;}
+.post-title {color: black!important;}
 
-.delete-link  {background-color: gainsboro;}
+.delete-link  {background-color: white;}
 
-.zone-wrapper {background-color: #B6B6B6;}
+.zone-wrapper {background-color: white;}
 
 .zone-wrapper postsListTop {background-color: #9E9E9E;}
 
-.zone-wrapper.nav.primary-nav { background-color: #FFF; }
+.zone-wrapper.nav.primary-nav { background-color: #9E9E9E; }
 
 .submit-button.secondaryNav-module.header-submodule { background: #D02D21 !important;}
 
@@ -29,10 +40,17 @@ h1.logo-text a {
     font-family: 'Special Elite';
     font-size: 36px;
     color: black !important;
+    color: rgba(0,0,0,0.6);
+text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    
 }
 
 .zone-wrapper.nav.primary-nav {visibility: hidden;}
 
+
+
 .zone-wrapper.nav.secondary-nav.desktop-nav.header-module.desktop-only {background: transparent !important;}
+
 
 span.user-menu-username {visibility: hidden;}
