@@ -1,13 +1,13 @@
  html {
-    color: #FFF !important;
+    color: #212121 !important;
 }
 body {
-     background: #88D6D6;
+     background: #F5F5F5;
      
 }
 
 header.header.dark-bg {
-    background: #D02D21;
+    background: #607D8B;
 }
 
 
@@ -15,12 +15,24 @@ header.header.dark-bg {
 
 .delete-link  {background-color: gainsboro;}
 
-.zone-wrapper {background-color: #88D6D6;}
+.zone-wrapper {background-color: #B6B6B6;}
 
-.zone-wrapper postsListTop {background-color: #D02D21;}
+.zone-wrapper postsListTop {background-color: #9E9E9E;}
 
 .zone-wrapper.nav.primary-nav { background-color: #FFF; }
 
-.zone-wrapper.nav.secondary-nav.desktop-nav.header-module.desktop-only {background: #FFF !important;}
-
 .submit-button.secondaryNav-module.header-submodule { background: #D02D21 !important;}
+
+.post-avatars {display: none;}
+
+h1.logo-text a {
+    font-family: 'Special Elite';
+    font-size: 36px;
+    color: black !important;
+}
+
+.zone-wrapper.nav.primary-nav {visibility: hidden;}
+
+.zone-wrapper.nav.secondary-nav.desktop-nav.header-module.desktop-only {background: transparent !important;}
+
+span.user-menu-username {visibility: hidden;}

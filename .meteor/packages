@@ -41,3 +41,4 @@ telescope:update-prompt
 standard-minifiers
 mrt:moment
 mrt:twilio-meteor
+materialize:materialize
