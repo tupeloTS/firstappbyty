@@ -92,6 +92,7 @@ momentjs:moment@2.10.6
 mongo@1.1.1
 mongo-id@1.0.1
 mongo-livedata@1.0.9
+montecruiseto:telescope-theme-sm-lulin@0.1.7
 mrt:moment@2.8.1
 mrt:twilio-meteor@1.1.0
 npm-bcrypt@0.7.8_2
