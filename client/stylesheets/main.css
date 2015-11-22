@@ -57,3 +57,9 @@ div.logo.header-module::after { display: none; }
 span.user-menu-username {visibility: hidden;}
 
 .signin-signup, .menu-top-level {color: black}
+
+/************* Responsive Styles *****************/
+@media screen and (max-device-width: 480px) {
+    
+    h1.logo-text a { font-size: 18px; }
+}
