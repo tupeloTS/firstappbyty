@@ -1,5 +1,4 @@
-/*
- // html {
+html {
     color: #212121 !important;
 }
 body {
@@ -15,11 +14,8 @@ body {
 }
 
 header.header.dark-bg {
-    background-color: #fff;
-    background-image: 
-    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-    linear-gradient(#abced4 .1em, transparent .1em);
-    background-size: 300% 1.2em;
+    background: white;
+    border-bottom: none;
 }
 
 
@@ -35,6 +31,8 @@ header.header.dark-bg {
 
 .submit-button.secondaryNav-module.header-submodule { background: #D02D21 !important;}
 
+.top-nav .header .header-submodule:last-child { border: none;}
+
 .post-avatars {display: none;}
 
 h1.logo-text a {
@@ -47,6 +45,8 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
     
 }
 
+div.logo.header-module::after { display: none; }
+
 .zone-wrapper.nav.primary-nav {visibility: hidden;}
 
 
@@ -56,6 +56,4 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
 
 span.user-menu-username {visibility: hidden;}
 
-.signin-signup, .menu-top-level {color: black;}
-
-*/
+.signin-signup, .menu-top-level {color: black}
